@@ -15,7 +15,8 @@ python train_teacher.py --teacher GAT  --gpu 0 --dataset cora
 python train_student.py --teacher GAT --student PLP --ptype ind --gpu 0 --dataset cora
 ```
 The teachers will be trained in models/ directory, and afterwards you can train your student from the teachers that are there in the models/ directory.  
-NOTE: If you get an error, you've probably forgot to delete the models/ directory :)
+  
+**NOTE:** If you get an error, you've probably forgot to delete the models/ directory :)
 
 
 **This code should only be used for academic purposes.**
